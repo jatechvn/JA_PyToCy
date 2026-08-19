@@ -1,0 +1,10 @@
+========================================================================
+                       PROJECT INFORMATION CARD
+========================================================================
+Project Name : JA PyToCy
+Tech Stack   : Flutter 3.x / Dart 3.x
+Managed By   : JA Auto Git
+Website      : https://jatechvn.github.io/
+------------------------------------------------------------------------
+Description  : Windows desktop app built in Flutter to compile Python scripts to Cython binary files (.pyd/.so) with in-place and batch capabilities, customizable compiler directives, and real-time build logging.
+========================================================================

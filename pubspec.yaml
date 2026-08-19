@@ -1,0 +1,27 @@
+name: ja_pytocy
+description: JA PyToCy - Compile Python files to Cython binaries (.pyd/.so)
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  logging: ^1.3.0
+  path: ^1.9.0
+  file_picker: ^8.0.0+1
+  window_manager: ^0.4.3
+  flutter_acrylic: ^1.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/app_icon.png

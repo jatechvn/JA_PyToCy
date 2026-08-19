@@ -1,0 +1,74 @@
+# Flutter/Dart
+.dart_tool/
+.packages
+build/
+.pub-cache/
+.pub/
+/coverage/
+
+# Cython build leftovers and outputs
+**/build/
+**/__pycache__/
+*.pyc
+*.pyd
+*.so
+*.c
+
+# Native OS binaries (C++/Rust compiled cores via FFI)
+lib/modules/native/*.dll
+lib/modules/native/*.so
+lib/modules/native/*.dylib
+
+# Platform build outputs
+windows/flutter/ephemeral/
+macos/Flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Logs and temporary files
+logs/*.log
+assets/temp/
+
+# Local IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.iml
+
+# Generated files
+*.g.dart
+*.freezed.dart
+config.ini
+config.json
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Python cache / compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build output
+dist/
+build_pyinstall/
+build_nuitka/
+*.spec
+
+# Logs and temporary files
+
+# Local IDE / OS files
+
+# Personal config - uncomment if config has password/token/key
+# config.ini
+# config.json
+
+# License that should absolutely not be committed
+license.key
+
+# Hybrid native libraries
+modules/native/*.dll
+modules/native/*.so
+modules/native/*.dylib
